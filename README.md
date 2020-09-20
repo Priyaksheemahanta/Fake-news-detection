@@ -1,6 +1,7 @@
 # Fake-news-detection
-###  METHODOLOGY 
-3.1. Response based detection 
+## METHODOLOGY 
+###3.1. Response based detection 
+
 Fake news generally carries strong sentiments and thus circulates in no time on  social media. Response based technique takes into consideration the collected responses on tweets/posts to determine the credibility of the news. This project has  progressed in two phases. In the First Phase, I implemented the higher posterior  probability method on the article‟s body and headlines. Although, I observed higher  accuracy results, I found this method to be not very efficient because there is  possibility that Fake news can appear in a well-written article. In the second phase, I  proposed approach to classify fake news more accurately by analyzing the response on  such news articles”. Implementation of the same was carried out in five sub phases: 
 1) Collection of data from social media platform, Facebook and Twitter 2) Choosing relevant features for classification and Training the Model 3) Evaluation of different model performance based on extracted features 4) Improving performance 
 5) Discussion and Presentation of results 
