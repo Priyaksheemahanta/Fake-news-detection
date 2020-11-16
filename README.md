@@ -1,4 +1,7 @@
 # Fake-news-detection
+#### Research on fake news detection is a recent phenomenon and is gaining  importance everyday due of its huge negative impact on social and civic engagement.
+
+
 ## METHODOLOGY 
 ### 3.1. Response based detection 
 
@@ -6,20 +9,20 @@ Fake news generally carries strong sentiments and thus circulates in no time on 
 1) Collection of data from social media platform, Facebook and Twitter 2) Choosing relevant features for classification and Training the Model 3) Evaluation of different model performance based on extracted features 4) Improving performance 
 5) Discussion and Presentation of results 
 This project was developed in Python using Sci-kit libraries. Python has a huge  set of libraries and extensions, which can be easily used in Machine Learning. Sci-Kit  Learn [6] library is the best source for machine learning algorithms where nearly all  types of machine learning algorithms are readily available for Python, thus easy and  quick evaluation of ML algorithms is possible.
-## Brief introduction to the algorithms 
-### Naïve Bayes:
 
-This classification technique is based on Bayes theorem, which assumes that the presence of a particular feature in a class is independent of the presence of any  other feature. It provides way for calculating the posterior probability. 
-### Passive Aggressive Classifier: 
 
-The Passive Aggressive Algorithm is an online  algorithm; ideal for classifying massive streams of data (e.g. twitter). It is easy to  implement and very fast. It works by taking an example, learning from it and then  throwing it away.  
-### Logistic Regression:
+# SCREENSHOTS:
 
-Logistic regression is a classification algorithm, used to predict  the probability of occurrence of an event (0/1, True/False, Yes/No). It uses sigmoid function to estimate probabilities. 
-### Support Vector Machine: 
+<img src="https://github.com/Priyaksheemahanta/Fake-news-detection/blob/master/fake_news_detection_screenshots/11.png">
 
-In this algorithm, each data item is plotted as a point in n dimensional space (n is the number of features). Values of each feature are the value of  each co-ordinate. It specifically extracts a best possible hyper-plane or a set of hyper planes in a high dimensional space that segregates two classes. Linear kernel was used  for SVM in this work. 
-### Stochastic Gradient Descent:
+<img src="https://github.com/Priyaksheemahanta/Fake-news-detection/blob/master/fake_news_detection_screenshots/2020-09-20.png">
 
-A SGD algorithm starts at a random point, updates the  cost function with each of the iteration using one data point at a time and builds a 
-classifier with progressively higher accuracy given a large dataset. In SGD, a sample  of training set or one training value is used to calculate parameters, which are much  faster than other gradient descent.
+<img src="https://github.com/Priyaksheemahanta/Fake-news-detection/blob/master/fake_news_detection_screenshots/2020-09-20%20(1).png">
+
+<img src="https://github.com/Priyaksheemahanta/Fake-news-detection/blob/master/fake_news_detection_screenshots/2020-09-20%20(2).png">
+
+<img src="https://github.com/Priyaksheemahanta/Fake-news-detection/blob/master/fake_news_detection_screenshots/2020-09-20%20(3).png">
+
+<img src="https://github.com/Priyaksheemahanta/Fake-news-detection/blob/master/fake_news_detection_screenshots/2020-09-20%20(4).png">
+
+<img src="https://github.com/Priyaksheemahanta/Fake-news-detection/blob/master/fake_news_detection_screenshots/2020-09-20%20(5).png">
